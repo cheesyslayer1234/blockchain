@@ -1,0 +1,10 @@
+{
+  "Helloworld.sol": {
+    "__sources__": {
+      "Helloworld.sol": {
+        "content": "// SPDX-License-Identifier: MIT\npragma solidity ^0.8.0;\ncontract HelloWorld {\n    string public message = \"Hello World\";\n    // Function to update the message\n    function setMessage(string memory newMessage) public {\n        message = newMessage;\n    }\n}\n",
+        "file": "Helloworld.sol"
+      }
+    }
+  }
+}
